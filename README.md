@@ -1,21 +1,22 @@
-# Personal Recommendation Program 
+# Movie Ticket Price Calculator
 
 ## Program Description:  
-Students will create a simple recommendation system that asks the user a series of questions and provides a recommendation based on their answers. This project will help students practice using conditionals and handling user input in a structured way.
+Write a program that calculates the price of a movie ticket based on the age of the customer and the time of day they are attending the movie.
 
 ## Program Requirements:
-- Ask Questions:
-  - Pose at least 3 questions to the user.
-- Provide Recommendations:
-  - Based on the user’s answers, provide a recommendation or response.
-- Handle Different Responses:
-  - Use if/else statements to handle different answers and provide corresponding recommendations.
+- Ask for the customer’s age.
+  - If the customer is 12 years old or younger, the ticket costs $7.
+  - If the customer is between 13 and 64 years old, the ticket costs $12.
+  - If the customer is 65 or older, the ticket costs $8.
+- Ask for the time of the movie (in 24-hour format).
+  - If the time is before 5 p.m., there is a $2 discount on the ticket.
+- Output the final ticket price.
+- Ensure that the program properly handles invalid inputs (e.g., negative ages, times that aren't in the 24-hour format).
  
-## Extensions:
-- Add more questions and criteria to refine the recommendations.
-- Handle invalid input more gracefully.
-  - Dont crash out or skip the whole program when users enter invalid choice
-- Include more user input options for a broader range of recommendations.
+## Example Output:
+>Enter your age: 15
+>
+>Enter the time of the movie (24-hour format): 14
+>
+>Your ticket price is $10.
 
-## Example Code:
-There is an example script in the project that gives sample scenaior. You CANNOT use this as your example.
