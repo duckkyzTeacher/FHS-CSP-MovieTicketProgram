@@ -12,6 +12,13 @@ Write a program that calculates the price of a movie ticket based on the age of 
   - If the time is before 5 p.m., there is a $2 discount on the ticket.
 - Output the final ticket price.
 - Ensure that the program properly handles invalid inputs (e.g., negative ages, times that aren't in the 24-hour format).
+
+
+## Extensions:
+- Think of more creative questions that could yield discounts
+  - Holidays, Birthdays, etc.
+- Ask people to pick seat locations
+- Ask for more information about the user and print out pretty tickets
  
 ## Example Output:
 >Enter your age: 15
